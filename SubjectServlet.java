@@ -13,7 +13,7 @@ public SubjectServlet() {
 subjectDescriptions = new HashMap<>();
 subjectDescriptions.put("algebra", "Algebra deals with the manipulation of symbols...");
 subjectDescriptions.put("geometry", "Geometry studies shapes, sizes, and spatial relationships...");
-26
+
     subjectDescriptions.put("calculus", "Calculus is the mathematical study of change...");
 // Add more subjects and descriptions as needed }
 /**
@@ -25,7 +25,7 @@ if (subject != null && subjectDescriptions.containsKey(subject)) { String descri
  response.setContentType("text/html");
  response.getWriter().println("<!DOCTYPE html>");
  response.getWriter().println("<html>"); response.getWriter().println("<head>"); response.getWriter().println("<title>Subject Description</title>"); response.getWriter().println("<style>"); response.getWriter().println("body {"); response.getWriter().println(" font-family: Arial, sans-serif;"); response.getWriter().println(" margin: 0; padding: 0;"); response.getWriter().println("}"); response.getWriter().println("h1 {");
-27
+
  
 response.getWriter().println(" text-align: center;"); response.getWriter().println("}"); response.getWriter().println("p {"); response.getWriter().println(" padding: 20px;"); response.getWriter().println("}"); response.getWriter().println("</style>");
 response.getWriter().println("</head>"); response.getWriter().println("<body>"); response.getWriter().println("<h1>" + subject + "</h1>"); response.getWriter().println("<p>" + description + "</p>"); response.getWriter().println("</body>"); response.getWriter().println("</html>");
