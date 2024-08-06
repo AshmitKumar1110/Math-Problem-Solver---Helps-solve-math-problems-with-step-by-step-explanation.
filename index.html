@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Math Problem Solver</title> <style>
+ 
+body {
+font-family: Arial, sans-serif;
+}
+.container {
+width: 80%;
+margin: 40px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+display: flex;
+justify-content: space-between; }
+.menu-column {
+width: 45%;
+}
+.form-column {
+10
+    width: 45%;
+}
+.form-group { margin-bottom: 20px; }
+.form-control {
+ width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ccc; }
+.btn {
+background-color: #4CAF50; color: #fff;
+padding: 10px 20px;
+border: none;
+ border-radius: 5px;
+cursor: pointer;
+}
+.btn:hover { background-color: #3e8e41; }
+#solution { margin-top: 10px; padding: 10px;
+11
+ 
+    border: 1px solid #ddd; border-radius: 5px;
+}
+</style>
+</head> <body>
+ <div class="container">
+<h1>Math Problem Solver</h1>
+<div class="header">
+<ul class="menu-column">
+<li><a href="subject.html">Subject</a></li> <li><a href="tutorial.html">Tutorial</a></li> <li><a href="examples.html">Examples</a></li> <li><a href="faq.html">FAQ</a></li>
+<li><a href="feedback.html">Feedback</a></li> </ul>
+ <div class="form-column">
+<form action="SolveServlet" method="post" id="problemForm">
+<div class="form-group">
+<label for="problem">Enter your math problem:</label><br>
+<textarea id="problem" name="problem" rows="5" cols="33" class="form-control" required></textarea><br>
+</div>
+<input type="submit" value="Solve" class="btn"> </form>
+12
+ 
+<div id="solution"></div> </div>
+</div>
+</div>
+<script src="script.js"></script> </body>
+</html>
