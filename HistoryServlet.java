@@ -20,7 +20,7 @@ super();
 */
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 // TODO Auto-generated method stub
-48
+
     String[] timestamps = {"May 10, 2024, 15:30", "May 9, 2024, 14:45"};
 String[] events = {"Solved equation: x^2 + 2x + 1 = 0", "Calculated the area of a circle"};
 String[] descriptions = {"The equation was successfully solved using the quadratic formula.", "The area of a circle with radius 5 units was calculated as 78.54 square units."};
@@ -36,7 +36,7 @@ out.println(" font-family: Arial, sans-serif;"); out.println(" background-color:
  out.println(" margin: 0;");
 out.println(" padding: 0;"); out.println("}");
 out.println(".container {"); out.println(" max-width: 800px;"); out.println(" margin: 50px auto;"); out.println(" background-color: #fff;"); out.println(" padding: 20px;"); out.println(" border-radius: 8px;");
-49
+
  
     out.println(" box-shadow: 0 2px 5px rgba(0,0,0,0.1);"); out.println("}");
 out.println("h1 {");
@@ -53,7 +53,7 @@ out.println(" font-size: 14px;");
  out.println(" margin-bottom: 5px;"); out.println("}");
 out.println(".event {");
 out.println(" color: #333;"); out.println(" font-weight: bold;"); out.println("}"); out.println(".description {"); out.println(" color: #666;"); out.println("}");
-50
+
  
 out.println("</style>"); out.println("</head>"); out.println("<body>");
 out.println("<div class=\"container\">"); out.println("<h1>History</h1>");
