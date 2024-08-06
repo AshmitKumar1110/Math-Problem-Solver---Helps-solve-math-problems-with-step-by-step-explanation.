@@ -15,7 +15,7 @@ super();
 // TODO Auto-generated constructor stub }
 /**
 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-69
+
     */
 protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 // TODO Auto-generated method stub String name = request.getParameter("name");
@@ -30,7 +30,7 @@ response.getWriter().println("<head><title>Contact Us</title></head>");
 response.getWriter().println("<body style='font-family: Arial, sans-serif; margin: 0; padding: 0;'>");
 response.getWriter().println("<h1>Contact Form Submission</h1>");
 response.getWriter().println("<div style='text-align: center; margin: 20px auto; padding: 20px; border: 1px solid #ddd; width: 50%;'>");
-70
+
  
 response.getWriter().println("<p style='font-size: 18px; color: green;'>" + successMessage + "</p>");
 response.getWriter().println("</div>"); response.getWriter().println("</body>"); response.getWriter().println("</html>");
