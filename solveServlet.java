@@ -14,7 +14,7 @@ super();
 // TODO Auto-generated constructor stub }
 /**
 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-14
+
     */
 protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 // TODO Auto-generated method stub
@@ -38,7 +38,7 @@ String solution = "Steps Using Substitution\r\n"
 + "Add y to both sides of the equation.\r\n" + "2x=y+1\r\n"
 + "Divide both sides by 2.\r\n"
 + "x= \r\n"
-15
+
  
     + "2\r\n"
 + "1\r\n"
@@ -62,7 +62,7 @@ String solution = "Steps Using Substitution\r\n"
 + "\r\n"
 + " for x in the other equation, −x+2y=−3.\r\n" + "−( \r\n"
 + "2\r\n"
-16
+
  
     + "1\r\n"
 + "\r\n"
@@ -84,7 +84,7 @@ String solution = "Steps Using Substitution\r\n"
 + " +2y=−3\r\n" + "Add − \r\n" + "2\r\n"
 + "y\r\n"
 + "\r\n"
-17
+
  
     + " to 2y.\r\n" + "2\r\n"
 + "3\r\n"
@@ -107,7 +107,7 @@ String solution = "Steps Using Substitution\r\n"
 + " \r\n"
 + "Divide both sides of the equation by \r\n" + "2\r\n"
 + "3\r\n"
-18
+
  
     fraction.\r\n"
 + "\r\n"
@@ -127,7 +127,7 @@ String solution = "Steps Using Substitution\r\n"
 + "\r\n"
 + " . Because the resulting equation contains only one variable, you can solve for x directly.\r\n"
 + "x= \r\n" + "2\r\n" + "1\r\n" + "\r\n"
-19
+
  
     + " (− \r\n" + "3\r\n"
 + "5\r\n"
@@ -147,7 +147,7 @@ String solution = "Steps Using Substitution\r\n"
 + "5\r\n"
 + "\r\n"
 + " + \r\n" + "2\r\n"
-20
+
  
     + "1\r\n"
 + "\r\n"
@@ -170,7 +170,7 @@ reduce the fraction to lowest terms if possible.\r\n" + "x=− \r\n"
 + "\r\n"
 + " ,y=− \r\n"
 + "3\r\n"
-21
+
  
 + "5\r\n" + "\r\n" + "";
 response.setContentType("text/plain"); // Set response content type response.getWriter().println(solution);
