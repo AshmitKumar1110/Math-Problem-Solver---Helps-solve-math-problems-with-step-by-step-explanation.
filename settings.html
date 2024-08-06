@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<title>Settings - Math Problem Solver</title> <style>
+body {
+font-family: Arial, sans-serif; background-color: #f4f4f4;
+margin: 0; padding: 0;
+}
+.container { max-width: 800px;
+margin: 50px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+h1 {
+color: #333; text-align: center;
+58
+    }
+.setting-item { margin-bottom: 20px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.setting-title {
+color: #007bff;
+font-size: 18px; margin-bottom: 5px; }
+.setting-description { color: #666;
+}
+ .setting-input {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 5px;
+} .btn-save {
+59
+ 
+    background-color: #007bff; color: #fff;
+padding: 10px 20px; border: none; border-radius: 4px;
+cursor: pointer;
+ }
+.btn-save:hover { background-color: #0056b3; }
+</style>
+</head>
+<body>
+<div class="container"> <h1>Settings</h1>
+<div class="setting-item">
+ <h2 class="setting-title">Change Password</h2>
+<p class="setting-description">Enter your current and new password below:</p> <input type="password" class="setting-input" placeholder="Current Password"> <input type="password" class="setting-input" placeholder="New Password"> <button class="btn-save">Save Password</button>
+</div>
+<div class="setting-item">
+<h2 class="setting-title">Email Notifications</h2>
+<p class="setting-description">Toggle email notifications:</p> 60
+   
+<label><input type="checkbox"> Receive email notifications</label> <button class="btn-save">Save Settings</button>
+</div>
+<!-- Add more setting items as needed -->
+</div> </body>
+</html>
