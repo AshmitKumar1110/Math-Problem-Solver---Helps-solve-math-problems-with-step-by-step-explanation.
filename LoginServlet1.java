@@ -12,7 +12,7 @@ public LoginServlet1() {
 super(); }
 /**
 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response) */
-8
+
 protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 String username = request.getParameter("username");
 String password = request.getParameter("password"); boolean isAuthenticated = authenticate(username, password); if (isAuthenticated) {
