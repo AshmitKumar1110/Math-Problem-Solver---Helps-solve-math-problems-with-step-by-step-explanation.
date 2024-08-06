@@ -18,7 +18,7 @@ super();
 /**
 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response) */
 protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-56
+
 // TODO Auto-generated method stub
 String username = request.getParameter("username"); String email = request.getParameter("email");
 String password = request.getParameter("password"); System.out.println("Username: " + username); System.out.println("Email: " + email);
